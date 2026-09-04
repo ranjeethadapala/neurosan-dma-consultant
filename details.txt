@@ -1,0 +1,102 @@
+cd "C:\Users\254358\OneDrive - Cognizant\My files\Gen AI\neuro-san-studio-main"
+
+py -3.13 -m venv .venv
+
+.venv\Scripts\activate
+
+python -m pip install --upgrade pip
+
+pip install -r requirements.txt
+
+pip install -e .
+
+ns --help
+
+ns run
+
+Shotcut:
+cd "C:\Users\254358\OneDrive - Cognizant\My files\Gen AI\neuro-san-studio-main"
+2
+.venv\Scripts\activate
+3
+ns run
+
+-- wait for 2 min then open  -- http://localhost:4173/
+-- if not close http://localhost:4173/ and open in new tab it will work with agents
+
+Conversion rate dropped from 3.5% to 2.8%.
+
+Analyze possible causes and provide prioritized recommendations.
+
+-----
+Traffic increased by 40% during the last month.
+
+Revenue remained flat.
+
+Identify likely root causes and recommended actions.
+---
+Bounce rate increased from 42% to 71%.
+
+Analyze the issue from Analytics, Tracking, and Optimization perspectives.
+---
+Checkout abandonment increased by 25%.
+
+Provide a complete DMA consulting assessment.
+---
+An Adobe Analytics dashboard shows a 20% drop in purchases after a recent release.
+
+Perform a DMA consulting review.
+--
+After a GTM and Adobe Launch deployment, reported conversions dropped by 30%.
+
+Investigate potential tracking and business issues.
+---
+
+A company recently migrated from Universal Analytics to GA4.
+
+Conversions appear significantly lower.
+
+Analyze possible causes and verification steps.
+---
+A travel company noticed increased website traffic but declining booking conversions.
+
+Provide recommendations from Analytics, Tracking, and CRO specialists.
+---
+We are an ecommerce company.
+
+Revenue decreased by 15%.
+
+Bounce rate increased by 20%.
+
+Checkout abandonment increased by 18%.
+
+Provide a complete DMA consulting report.
+--
+You are acting as a Digital Analytics Consulting team.
+
+Client Issues:
+
+- Conversion rate dropped from 3.5% to 2.8%
+- Bounce rate increased from 40% to 68%
+- Mobile traffic increased by 25%
+- Revenue declined by 10%
+
+Provide:
+
+1. Executive Summary
+2. Analytics Findings
+3. Tracking Findings
+4. Optimization Findings
+5. Business Impact
+6. Recommended Actions
+7. Priority Matrix
+--
+
+DMA Analytics Consultant is a multi-agent AI consulting platform built using NeuroSAN AAOSA that brings together Analytics, Tracking, Optimization, and Recommendation specialists to identify root causes of digital performance issues and generate executive-ready recommendations in minutes.
+
+
+.venv stands for Virtual Environment.
+It is an isolated Python environment created specifically for this project.
+It contains all Python packages required by NeuroSAN.
+
+Run NeuroSAN Studio
